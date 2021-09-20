@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int iA;
+	int iB;
+
+
+	cout << "Zadajte prve cislo:" << endl;
+	cin >> iA;
+	cout << endl;
+
+	cout << "Zadajte druhe cislo:" << endl;
+	cin >> iB;
+	cout << endl;
+
+	cout << "Sucet cisel je: " << iA + iB << endl;
+	cout << "Sucin cisel je:" << iA - iB << endl;
+	cout << "Nasobok cisel je:" << iA * iB << endl;
+	cout << "Podiel cisel je:" << iA / iB << endl;
+	cout << endl;
+
+	cout << "Pre ukoncenie programu stlacte lubovolnu klavesu" << endl;
+	cin.get();
+	cin.get();
+
+
+
+	return 0;
+}
